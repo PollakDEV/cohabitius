@@ -15,13 +15,13 @@ export default function HeroSection() {
       </p>
       <div className="flex flex-col md:flex-row gap-4 justify-center">
         <Link
-          href="/auth/signup"
+          href="/waitlist"
           className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors text-lg"
         >
           Get Started Free
         </Link>
         <Link
-          href="/auth/login"
+          href="/waitlist"
           className="border-2 backg border-purple-600 text-purple-600 px-8 py-3 rounded-lg hover:bg-purple-50 transition-colors text-lg sm:border-2 lg:border-4"
         >
           Existing User? Log In
